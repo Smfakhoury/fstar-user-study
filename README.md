@@ -144,10 +144,11 @@ elif "my_pattern" in task_lower:
 
 Based on findings from:
 
-> "What's in a Proof? Analyzing Expert Proof-Writing Processes in F* and Verus"
-> ICSE 2025
+> ["What's in a Proof? Analyzing Expert Proof-Writing Processes in F* and Verus"](https://arxiv.org/pdf/2508.02733)
+
 
 ## License
 
 MIT
+
 
