@@ -109,23 +109,6 @@ fstar-proof-agent/
 └── output/                    # Generated proofs
 ```
 
-## Benchmark Results
-
-| Metric | Improved Agent | Vanilla |
-|--------|----------------|---------|
-| Verified | 4/4 | 4/4 |
-| Has specs | **12** | 0 |
-| Proves correctness | **YES** | NO |
-
-Example difference:
-```fstar
-(* Vanilla - no guarantee *)
-let max_diff (l: list int) : int = ...
-
-(* Improved - PROVES non-negative *)
-let max_diff (l: list int) : r:int{r >= 0} = ...
-```
-
 ## Key Findings from User Study
 
 1. **Spec-first wins**: Experts spend 70% of early time on specifications
@@ -167,3 +150,4 @@ Based on findings from:
 ## License
 
 MIT
+
