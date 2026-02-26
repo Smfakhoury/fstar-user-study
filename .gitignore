@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+
+# F* build artifacts
+*.checked
+*.hints
+.fstar.checked
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.fstar_index.json
+*.cache
+
+# Temporary
+*.tmp
+*.log
+benchmark/
+output/
